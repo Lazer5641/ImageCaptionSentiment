@@ -1,14 +1,14 @@
-Image Caption Sentiment Analyzer
+#Image Caption Sentiment Analyzer
 A multimodal machine learning app that generates captions for uploaded images and analyzes the sentiment of those captions. Built with Hugging Face Transformers and Gradio, hosted on Hugging Face Spaces.
-Features
+#Features
 
 Image Captioning: Generates a text description of an uploaded image using the Salesforce/blip-image-captioning-base model.
 Sentiment Analysis: Analyzes the sentiment (positive or negative) of the caption using the distilbert-base-uncased-finetuned-sst-2-english model.
 User Interface: Simple Gradio interface for uploading images and viewing results.
 
-Demo
+#Demo
 Try the app on Hugging Face Spaces (replace with your Space URL).
-Installation
+#Installation
 To run locally, follow these steps:
 
 Clone the repository:
@@ -28,7 +28,7 @@ python app.py
 Access the Gradio interface at http://localhost:7860.
 
 
-Dependencies
+#Dependencies
 
 transformers: For loading pre-trained models.
 torch: PyTorch for model inference.
