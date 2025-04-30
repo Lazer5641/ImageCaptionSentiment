@@ -58,4 +58,4 @@ Build and access the app via the Space URL.
 License
 MIT License
 Contact
-Feel free to reach out via GitHub Issues or your-email@example.com.
+Feel free to reach out via GitHub Issues
